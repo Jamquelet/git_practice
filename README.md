@@ -1,4 +1,12 @@
 HEAD
 # git_practice
-practice git 
+
+# Operadores aritméticos
+P - paréntesis
+E - exponentes
+M - multiplicación
+D - división
+A - adición
+S - sutracción
+
 
