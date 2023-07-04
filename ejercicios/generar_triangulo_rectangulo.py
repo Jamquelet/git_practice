@@ -10,3 +10,4 @@ numero_entero = int(input("Ingrese un número entero: "))
 triangulo_resultante = generar_triangulo_rectangulo(numero_entero)
 
 print(triangulo_resultante)
+
