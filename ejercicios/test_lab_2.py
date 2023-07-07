@@ -1,4 +1,4 @@
-from ejercicios.solution import precios, triangulo
+from ejercicios.solution_ejer import precios, triangulo
 
 
 def test_zero_price():
