@@ -9,7 +9,7 @@ for row in matriz:
     for column in row:
         print(column)
 
-##
+#
 
 matriz_ada= []
 #dimenciones filas y columnas
@@ -25,4 +25,10 @@ for _ in range(filas):
 
 print(matriz_ada)
 #utilizando list comprehension
-matriz2 = [[0 for j]for]
+matriz2 = [
+    [0 for j in range (columnas)]
+    for i in range(filas)
+    ]
+#fila,columna
+matriz_ada[0][0] = 1
+print(matriz_ada) 
