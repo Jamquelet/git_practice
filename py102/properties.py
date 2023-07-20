@@ -3,6 +3,8 @@
 #con i² = -1
 
 class Complejo:
+    '''
+    clase para manipular números complejos'''
     def __init__(self, a: float, b: float) -> None:
         self.a = a
         self.b = b
@@ -14,6 +16,11 @@ class Complejo:
         return Complejo(self.a + other.a, self.b + other.b)
     
     def __mul__(self, other: "Complejo") -> "Complejo":
+        '''
+        multiplica dos complejos
+        args: other complejo:otro operando 
+        returns: complejo:retorna la multiplicacion
+        '''
         return Complejo(self.a * other.a-self.b*other.b, self.a*other.b+self.b*other.a)
 
 #numeros complejos se suman elementos a con a y b con b
@@ -30,3 +37,4 @@ print(c1 + c2)
 print(c1 * c2)
 #print(Complejo(c1.a + c2.a, c1.b + c2.b)) #crear el complejo con def __add__ evito crear esta logica
 #print(Complejo(c1.a * c2.a, c1.b * c2.b)) 
+
