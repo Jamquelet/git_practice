@@ -110,3 +110,5 @@ t3= Trica(1,2,3)
 print(t3==t1) #True
 
 #pydantic dataclass con 'esteroides
+#Agregación : rombo-es una relacion debil -los componentes pueden ser compartidos -la destruccion del componente no destruye el compuesto
+#Composición: representado por rombo oscuro -Es una relacion fuerte - Los componentes no pueden ser compartidos - la detruccion del componente conlleva la destruccion del compuesto

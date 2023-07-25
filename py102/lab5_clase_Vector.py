@@ -152,7 +152,7 @@ class Vector:
 
 
 ####
-from solution import Vector
+#from solution import Vector
 
 
 def test_vector_suma():
