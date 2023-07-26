@@ -13,7 +13,7 @@ def main():
     f.adicionar(pepsi, 1)
     f.adicionar(pepsi, 1)
 
-    print(f"{f.buscar('papitas')=}") #el = imprime la expeccion y su valor
+    print(f"{f.buscar('papitas')=}") #el = imprime la expreccion y su valor
 
     print(f)
 
