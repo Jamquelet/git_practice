@@ -73,4 +73,19 @@ class Trabajador1(Persona1):
     
 t= Trabajador1('memo', 50, 1000)
 print(t)
+
+
+#
+from dataclasses import dataclass
     
+@dataclass
+class Rectangulo:
+    alto: int
+    ancho: int
+
+    @property #es una propiedad no una funcion 
+    def area(self):
+        return self.alto*self.ancho
+    
+r = Rectangulo(10,30)
+print(r.area)

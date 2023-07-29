@@ -13,7 +13,7 @@ print(result)
 increment_v2 = lambda x:x+1
 higher_order_function = lambda x, func: x+func(x)
 result2= higher_order_function(2,increment_v2)
-print(result2)#11
+print(result2)
 #
 result3= higher_order_function(2, lambda x:x+1)
 print(result3)
