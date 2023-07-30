@@ -52,3 +52,15 @@ def multiply_numbers(numbers):
 numbers = [1,2,3,4]
 response = multiply_numbers(numbers)
 print(response)
+
+#con un ciclo for 
+
+def multiply_numbers2(numbers):
+    numbers2 = []
+    for x in numbers:
+        numbers2.append(x*2)
+    return numbers2
+
+numbers = [1,2,3,4]
+response = multiply_numbers2(numbers)
+print(response)

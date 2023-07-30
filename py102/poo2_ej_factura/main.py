@@ -1,4 +1,4 @@
-from py102.poo2_ej_factura.poo2_facturas import Factura, Producto
+from poo2_facturas import Factura, Producto
 
 def main():
     papas = Producto('papitas', 10.85)
