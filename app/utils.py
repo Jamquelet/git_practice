@@ -7,6 +7,6 @@ def get_population():
 #A = 'a'
 def population_by_country(data, country): #recivo informacion y quiero un pais en especifico, data es una lista con dict. por eso filtro ese pais
     '''
-    '''
-    result = list(filter(lambda item:item['Country'] == country), data) #lambda vamos a ir iterandola y va a haber una key ya que es una lista que tiene un dict, se agregan los indices, y decimos de quien es este pais['Country'], si el pais es igual al que me envian como variable entonces va a ser parte del resultado, se agrega la info que voy a iterar
+    recivo una info: una lista de diccionarios, se filtra si el pais que quiero filtrar coincide y si esta dentro de esa lista.'''
+    result = list(filter(lambda item:item['Country'] == country, data)) #lambda vamos a ir iterandola y va a haber una key ya que es una lista que tiene un dict, se agregan los indices, y decimos de quien es este pais['Country'], si el pais es igual al que me envian como variable entonces va a ser parte del resultado, se agrega la info que voy a iterar
     return result
