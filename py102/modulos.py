@@ -5,6 +5,7 @@
 #import functools
 #import random
 #from abc import ABC #Abstrac Base Class
+#import pickle # serializacion
 
 import sys #preguntar sobre el sistema operativo
 print(sys.path)#en que ubicacion estoy trabajando este archivo
