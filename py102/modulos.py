@@ -1,11 +1,13 @@
 #from collections import defaultdict
 #import this   
-#from typing import Tuple, List  #python < 3.9
-#from dataclasses import dataclass
+#from typing import Tuple, List, Optional #python < 3.9
+#from dataclasses import dataclass, field #para listas 
 #import functools
 #import random
 #from abc import ABC #Abstrac Base Class
-#import pickle # serializacion
+#import pickle # serializacion- archivos. comunicacion entre programa, que estan ejecuando en paralelo y se necesitan sincronizar
+#from hashlib import sha256
+#joblib
 
 import sys #preguntar sobre el sistema operativo
 print(sys.path)#en que ubicacion estoy trabajando este archivo
