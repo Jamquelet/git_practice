@@ -12,7 +12,7 @@ class Estudiante(Persona):
     ru: str
 
     def __hash__(self):
-        return int(sha256(self.ru.encode()).hexdigest(), 16) #encode convierte a bites, la funcion hash necesita un entero
+        return int(sha256(self.ru.encode()).hexdigest(), 16) #encode convierte una cadena a bites, la funcion hash necesita un entero, base 16 1,2,3,4,5,6,7,8,9,A,b...
 
 
 @dataclass

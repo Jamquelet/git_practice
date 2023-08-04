@@ -7,6 +7,7 @@
 #from abc import ABC #Abstrac Base Class
 #import pickle # serializacion- archivos. comunicacion entre programa, que estan ejecuando en paralelo y se necesitan sincronizar
 #from hashlib import sha256
+#import os
 #joblib
 
 import sys #preguntar sobre el sistema operativo
