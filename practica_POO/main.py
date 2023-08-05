@@ -54,7 +54,7 @@ def agregar_auxiliar(
                 pickle.dump(materia, temp) #
             except EOFError:
                 break
-
+                #borrar todo lo de temporal, sobreescrito todo en mi archivo real
     with open(filename, "wb") as f, open("temp.dat", "rb") as temp: #sobreescribir el archivo original
         while True:
             try: #intenta leer la materia una instancia de la materia
@@ -64,6 +64,15 @@ def agregar_auxiliar(
                 break
 
     os.remove("temp.dat")
+
+def mostrar_materias(filename = "materias.dat"):
+     with open(filename, "rb") as f:
+        while True:
+            try: 
+                materia: Materia = pickle.load(f)
+                print(materia)
+            except EOFError:
+                break
 
 
 def main():
@@ -100,7 +109,7 @@ def main():
     #adicionar_materia_a_archivo(m2)
 
     # Mostrar los estudiantes que están en en ambas materias
-    estudiante_en_dos_materias()
+    #estudiante_en_dos_materias()
 
     #agregar auxiliares a los parelelos
     #a1 = Auxiliar(nombre="a1", dni = "123", ru= 123, sueldo=1000, nro_item=1)
@@ -111,6 +120,7 @@ def main():
     #agregar_auxiliar(a3, "p3")
 
     #leyendo el archivo
+    mostrar_materias()
 
     #descontar el 12% al auxiliar del paralelo de algun docente a eleccion(por el nombre)
     #para esto crear una funcion que reciba una lista de materias y el nombre del docente
