@@ -19,3 +19,8 @@ print(result2)
 # 2         - 1       - 2    - 3
 # 3         - 3       - 3    - 6
 # 4         - 6       - 4    - 10
+
+import functools
+numbers2 = [1, 2, 3, 4, 5]
+result2 = functools.reduce(lambda a, b: a + b, numbers2)
+print(result2)
