@@ -43,3 +43,21 @@ def filter_by_length(words):
 words = ['amor','paz','arbol','az']
 response = filter_by_length(words)
 print(response)
+
+##
+datos = [1,3,5,2,7,10]
+filter(lambda n: n%2 ==0, datos)
+
+datos = [1,3,5,2,7,4, 10]
+
+for num in filter(lambda n: n%2 ==0, datos):
+    print(num)
+
+#como lista
+print(list(filter(lambda n: n%2 == 0, datos)))
+
+#ejemplo:generar una lista con los cubos de los pares de otra lista
+#declarrativo
+datos = [1,3,5,2,7,4,10]
+res = map(lambda x: x**2, filter(lambda x: x%2 == 0, datos))
+print(list(res)) #[4, 16, 100]

@@ -24,3 +24,14 @@ import functools
 numbers2 = [1, 2, 3, 4, 5]
 result2 = functools.reduce(lambda a, b: a + b, numbers2)
 print(result2)
+
+#
+from functools import reduce
+print(reduce( lambda a, b: a+b, [1, 2, 3, 4])) #10
+
+assert reduce( lambda a, b: a+b, [1, 2, 3, 4]) == sum([1,2,3,4])
+
+#calcular el factorial de n
+from functools import reduce
+reduce(lambda x, y: x * y, range(1,5))
+

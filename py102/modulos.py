@@ -8,6 +8,12 @@
 #import pickle # serializacion- archivos. comunicacion entre programa, que estan ejecuando en paralelo y se necesitan sincronizar
 #from hashlib import sha256
 #import os
+#from typing import Callable
+#import time 
+#import cv2 #open cv  para trabajar con procesamiento de img
+#import matplotlib.pyplot as plt #generar graficas, mostrar imagenes
+#from math import ceil
+
 #joblib
 
 import sys #preguntar sobre el sistema operativo

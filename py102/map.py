@@ -1,3 +1,4 @@
+#aplica una funcion a cada elemento del iterable, es perezoso
 #transformacion de elementos
 numbers=[1,2,3,4]
 numbers_v2=[]
@@ -64,3 +65,19 @@ def multiply_numbers2(numbers):
 numbers = [1,2,3,4]
 response = multiply_numbers2(numbers)
 print(response)
+
+#
+def cuadrado(n: int):
+    return n**2
+l=[1,2,3,4,5,6]
+
+cuadrados_1 = [cuadrado(n) for n in l]
+print(cuadrados_1)
+
+for c in map(cuadrado, l):
+    print(c)
+
+cuadrados_2 = list(map(cuadrado, l))
+print(cuadrados_2)
+
+list(map(int, input().split()))

@@ -35,3 +35,8 @@ La función factorial nos permite calcular el factorial de un número dado. Por 
 5! = 5 * 4 * 3 * 2 * 1 = 120
 
 La función factorial se puede utilizar para calcular el factorial de "n", "(n-k)", y "k" en la fórmula de las combinaciones. Al dividir el factorial de "n" entre el producto de los factoriales de "(n-k)" y "k", obtenemos el resultado de las combinaciones de "n" objetos tomados de "k" en "k". """
+
+##calcular el factorial de n
+from functools import reduce
+reduce(lambda x, y: x *y,range(1,5))
+
