@@ -13,6 +13,7 @@
 #import cv2 #open cv  para trabajar con procesamiento de img
 #import matplotlib.pyplot as plt #generar graficas, mostrar imagenes
 #from math import ceil
+#import csv #leer csv
 
 #joblib
 
