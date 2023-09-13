@@ -14,8 +14,19 @@
 #import matplotlib.pyplot as plt #generar graficas, mostrar imagenes
 #from math import ceil
 #import csv #leer csv
-
 #joblib
+
+#from sqlalchemy import create_engine
+#from sqlalchemy.orm import sessionmaker, declarative_base
+#from sqlalchemy import Column, Integer, String
+#import sqlite3
+
+#from tortoise import Tortoise, fields, run_async
+#from tortoise.models import Model
+#from tortoise.expressions import Q  #Filtrar con operadores de comparación
+#from tortoise.functions import Count import Sum import Avg
+
+
 
 import sys #preguntar sobre el sistema operativo
 print(sys.path)#en que ubicacion estoy trabajando este archivo
