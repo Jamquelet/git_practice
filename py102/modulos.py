@@ -26,6 +26,9 @@
 #from tortoise.expressions import Q  #Filtrar con operadores de comparación
 #from tortoise.functions import Count import Sum import Avg
 
+#from pypika import CustomFunction #Usar la función custom:
+#from tortoise.expressions import Function
+
 
 
 import sys #preguntar sobre el sistema operativo
