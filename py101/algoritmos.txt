@@ -1,0 +1,132 @@
+*algoritmos:*  diferentes tipos cada uno diseñado para resolver un tipo específico de problema o tarea
+
+#Algoritmos de búsqueda:
+
+Búsqueda lineal.
+Búsqueda binaria.
+Búsqueda en árboles (por ejemplo, búsqueda en árboles binarios de búsqueda).
+
+----------------------------------------------------------------
+
+#Algoritmos de ordenación:
+
+Ordenación de burbuja.
+Ordenación por selección.
+Ordenación por inserción.
+QuickSort.
+MergeSort.
+HeapSort.
+
+----------------------------------------------------------------
+
+#Algoritmos de grafos:
+
+Búsqueda en anchura (BFS).
+Búsqueda en profundidad (DFS).
+Algoritmo de Dijkstra.
+Algoritmo de Kruskal.
+Algoritmo de Prim.
+
+----------------------------------------------------------------
+
+#Algoritmos de árboles:
+
+Árboles binarios de búsqueda.
+Árboles AVL.
+Árboles B y B+.
+Árboles de expresión.
+Árboles Trie.
+
+----------------------------------------------------------------
+
+#Algoritmos de recorrido:
+
+Recorrido en preorden.
+Recorrido en inorden.
+Recorrido en postorden.
+Recorrido en nivel (para árboles y grafos).
+
+----------------------------------------------------------------
+
+#Algoritmos de gráficos y diseño de redes:
+
+Algoritmo de flujo máximo.
+Algoritmo de Kruskal.
+Algoritmo de Prim.
+Algoritmo de Bellman-Ford.
+Algoritmo de Floyd-Warshall.
+
+----------------------------------------------------------------
+
+#Algoritmos de búsqueda en texto:
+
+Algoritmo de fuerza bruta para búsqueda de patrones.
+Algoritmo de Knuth-Morris-Pratt (KMP).
+Algoritmo de Boyer-Moore.
+
+----------------------------------------------------------------
+
+#Algoritmos de programación dinámica:
+
+Algoritmo de Fibonacci.
+Algoritmo de la mochila (Knapsack).
+Algoritmo de edición (Levenshtein).
+
+----------------------------------------------------------------
+
+#Algoritmos de clasificación y agrupación:
+
+K-Means.
+Clasificación Naive Bayes.
+Regresión lineal y logística.
+
+----------------------------------------------------------------
+
+#Algoritmos de aprendizaje automático (Machine Learning):
+
+Regresión lineal.
+Árboles de decisión.
+Máquinas de soporte vectorial (SVM).
+Redes neuronales artificiales.
+Algoritmos de agrupación (por ejemplo, k-means).
+
+----------------------------------------------------------------
+
+#Algoritmos criptográficos:
+
+AES (Estándar de cifrado avanzado).
+RSA (Algoritmo de cifrado de clave pública).
+Algoritmos hash (por ejemplo, SHA-256).
+
+----------------------------------------------------------------
+
+#Algoritmos de optimización:
+
+Algoritmo genético.
+Algoritmo de optimización por enjambre de partículas (PSO).
+
+----------------------------------------------------------------
+
+#Búsqueda lineal: Un algoritmo que busca un elemento en una lista recorriendo cada elemento uno por uno hasta encontrar una coincidencia.
+
+#Búsqueda binaria: Un algoritmo de búsqueda eficiente que divide repetidamente una lista ordenada por la mitad y compara el elemento buscado con el elemento central, reduciendo así el espacio de búsqueda a la mitad en cada iteración.
+
+#QuickSort: Un algoritmo de ordenación que utiliza el enfoque de "divide y vencerás" para ordenar una lista desordenada dividiéndola en sublistas más pequeñas y luego combinándolas en orden.
+
+#MergeSort: Un algoritmo de ordenación que divide una lista en mitades, ordena cada mitad de manera recursiva y luego combina las mitades ordenadas para obtener una lista ordenada.
+
+#Algoritmo de Dijkstra: Un algoritmo de búsqueda de caminos más cortos que encuentra el camino más corto desde un nodo de origen a todos los demás nodos en un grafo ponderado por pesos.
+
+#Árbol binario de búsqueda: Una estructura de datos en forma de árbol en la que cada nodo tiene, a lo sumo, dos hijos, y los valores en los nodos izquierdos son menores que el valor en el nodo raíz, mientras que los valores en los nodos derechos son mayores.
+
+#Recorrido en preorden: Un algoritmo de recorrido de árbol que visita primero el nodo raíz, luego recorre el subárbol izquierdo y finalmente el subárbol derecho.
+
+#Algoritmo de flujo máximo: Un algoritmo que encuentra la cantidad máxima de flujo que puede pasar de un nodo fuente a un nodo sumidero en una red de flujo.
+
+#Algoritmo de Knuth-Morris-Pratt (KMP): Un algoritmo de búsqueda de patrones que encuentra todas las ocurrencias de un patrón en un texto sin volver a examinar caracteres previamente emparejados.
+
+#Algoritmo de programación dinámica: Un enfoque para resolver problemas complejos dividiéndolos en subproblemas más pequeños y resolviendo cada subproblema solo una vez, almacenando los resultados en una tabla para su reutilización.
+
+#K-Means: Un algoritmo de agrupamiento que divide un conjunto de datos en grupos (clusters) en función de la similitud de sus características.
+
+#Regresión lineal: Un algoritmo de aprendizaje automático que modela la relación lineal entre una variable de entrada y una variable de salida, utilizada para predecir valores numéricos.
