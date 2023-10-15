@@ -108,6 +108,8 @@ valor = v1[1]#resultado 2
 v1[1] = 10 
 print(v1) #resultado Vector(1,10,3)
 
+
+
 ##refactoring para pasar pytest
 class Vector:
     def __init__(self, data):
